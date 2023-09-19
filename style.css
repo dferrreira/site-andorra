@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rubik:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slickImgs img {
+    height: 940px;
+    filter: brightness(40%);
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 5rem;
+    background-color: red;
+}
+
+ul {
+    display: flex;
+}
+
+.infoContainer {
+    width: 100%;
+    position: absolute;
+    z-index: 998;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.info {
+    display: flex;
+    background-color: white;
+}
+
+.info div {
+    margin: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+}
+
+footer img {
+    width: 15rem;
+}
+
+footer p {
+    color: white;
+}
