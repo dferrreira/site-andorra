@@ -1,0 +1,12 @@
+.textContainer {
+    padding: 5rem 0 0 0;
+}
+
+.textContainer h1 {
+    color: black;
+}
+
+.imgContainer img {
+    width: 50rem;
+    height: 6rem;
+}
