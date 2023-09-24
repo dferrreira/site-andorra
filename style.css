@@ -1,64 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rubik:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rubik:wght@800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .slickImgs img {
-    height: 940px;
-    filter: brightness(40%);
+  height: 940px;
+  filter: brightness(40%);
 }
 
 header {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 5rem;
-    background-color: red;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--color-white-gray);
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 .infoContainer {
-    width: 100%;
-    position: absolute;
-    z-index: 998;
-    top: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: 998;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
-    color: white;
-    font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-size: 3rem;
 }
 
 .info {
-    display: flex;
-    background-color: white;
+  display: flex;
+  background-color: white;
 }
 
 .info div {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 footer {
-    padding: 1rem;
-    width: 100%;
-    background-color: black;
+  padding: 1rem;
+  width: 100%;
+  background: var(--footter-bckg);
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
 }
 
-footer img {
-    width: 15rem;
+hr {
+  border: 1px solid var(--color-light-gray);
+  width: 80%;
+}
+
+.logo {
+  width: 15rem;
+  margin-top: 1rem;
+}
+
+footer {
+  color: var(--color-white-gray);
+  text-align: left;
+  padding: 0.5rem;
+  display: flex;
 }
 
 footer p {
-    color: white;
+  color: var(--color-light-gray);
+}
+
+.grp,
+.prof {
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.fotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+:root {
+  --color-white: #fff;
+  --footter-bckg: #000000;
+  --color-white-gray: #e8e7e7;
+  --color-light-gray: rgb(103, 103, 103);
 }
