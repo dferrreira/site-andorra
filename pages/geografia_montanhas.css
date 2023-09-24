@@ -1,24 +1,43 @@
-div img {
-    width: 100%;
-    height: 576px;
+main img {
+  width: 100%;
+  height: 576px;
 }
 
 .content {
-    position: absolute;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 20rem;
-    left: 25%;
-    background-color: black;
+  position: absolute;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20rem;
+  left: 25%;
 }
 
-div hr {
-    width: 2rem;
+.textContainer ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.textContainer ul{
-    display: flex;
-    flex-direction: column;
+.str,
+.prt {
+  display: flex;
+  flex-direction: row;
+}
+
+.str li,
+.prt li {
+  height: 15rem;
+  width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: justify;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.last {
+  color: black;
 }

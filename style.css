@@ -13,15 +13,39 @@
 }
 
 header {
-  position: fixed;
+  position: absolute;
   z-index: 999;
   width: 100%;
   height: 5rem;
-  background-color: var(--color-white-gray);
+  display: flex;
+}
+
+nav {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
   display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white-gray);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .infoContainer {
@@ -63,11 +87,12 @@ footer {
 hr {
   border: 1px solid var(--color-light-gray);
   width: 80%;
+  margin: 2rem 0 2rem 0;
 }
 
 .logo {
   width: 15rem;
-  margin-top: 1rem;
+  margin: 1rem 0 1rem 0;
 }
 
 footer {
@@ -92,6 +117,17 @@ footer p {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
+}
+
+/*geografia*/
+
+.textContainer {
+  background: var(--color-white);
+}
+
+.str li,
+.prt li {
+  background: var(--color-white-gray);
 }
 
 :root {
