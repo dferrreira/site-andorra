@@ -40,3 +40,29 @@
 .galleryContainer li img:hover {
   transform: scale(1.1);
 }
+
+.formulario form {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#poggers {
+  padding: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+option {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
