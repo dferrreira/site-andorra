@@ -15,10 +15,36 @@
 }
 
 .killxd {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.killxd h2 {
+  text-align: center;
+}
+
+.killxd p {
+  text-align: center;
+  font-size: large;
+  margin: 1rem;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.content li {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.content li p strong {
+  color: rgb(246, 197, 0);
 }
 
 span {

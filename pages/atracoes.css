@@ -1,4 +1,4 @@
-.content {
+.content {  
     height: 100%;
     width: 100%;
 }
@@ -30,7 +30,7 @@
 .nada {
     position: absolute;
     width: 100%;
-    background: black;
+    background: rgb(246, 197, 0);;
     height: 10rem;
     top: 59.7rem;
 }

@@ -57,7 +57,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 998;
-  top: 50%;
+  top: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,12 +76,28 @@ h2 {
 }
 
 .info {
+  width: 30rem;
+  height: 4rem;
   display: flex;
   background-color: white;
+  justify-content: space-around;
+  border-radius: 1rem;
+  align-items: center;
+  margin: 1.5rem;
 }
 
 .info div {
-  margin: 1rem;
+  display: flex;
+}
+
+.info div img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.info div div {
+  flex-direction: column;
+  margin: 0 0 0 1rem;
 }
 
 footer {
