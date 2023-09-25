@@ -24,14 +24,6 @@
   z-index: 99;
 }
 
-.nada {
-  position: absolute;
-  width: 100%;
-  background: rgb(246, 197, 0);
-  height: 10rem;
-  top: 59.7rem;
-}
-
 .galleryContainer {
   width: 100%;
   display: grid;
