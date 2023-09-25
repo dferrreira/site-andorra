@@ -9,8 +9,21 @@ main img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 20rem;
+  top: 8rem;
   left: 25%;
+}
+
+.content h1 {
+  margin: 5rem 0 2rem 0;
+}
+
+.content p {
+  background: white;
+  text-align: justify;
+  padding: 1rem;
+}
+.content h2 {
+  color: rgb(246, 197, 0);
 }
 
 .textContainer ul {
@@ -36,8 +49,4 @@ main img {
   text-align: justify;
   border-radius: 1rem;
   text-decoration: none;
-}
-
-.last {
-  color: black;
 }

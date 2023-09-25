@@ -1,12 +1,30 @@
-.textContainer {
-    padding: 5rem 0 0 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&family=Rubik:wght@800&display=swap");
+
+.bandeira {
+  width: 100%;
+  height: auto;
 }
 
-.textContainer h1 {
-    color: black;
+.cl h1 {
+  color: white;
 }
 
 .imgContainer img {
-    width: 50rem;
-    height: 6rem;
+  width: 50rem;
+  height: 6rem;
+}
+
+.killxd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+span {
+  color: rgb(246, 197, 0);
+}
+
+h2 {
+  padding: 1rem;
 }
