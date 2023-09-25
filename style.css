@@ -157,6 +157,12 @@ footer p {
   background: var(--color-white-gray);
 }
 
+span {
+  color: rgb(246, 197, 0);
+  font-size: 900;
+  font-family: "Roboto", sans-serif;
+}
+
 :root {
   --color-white: #fff;
   --footter-bckg: #000000;

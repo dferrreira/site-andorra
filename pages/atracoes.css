@@ -1,65 +1,62 @@
-.content {  
-    height: 100%;
-    width: 100%;
+.content {
+  height: 100%;
+  width: 100%;
 }
 
 .titulo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 8rem 0 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem 0 0 0;
 }
 
 .titulo h1 {
-    color: black;
+  color: white;
+  position: absolute;
+  z-index: 999;
 }
 
-.titulo hr {
-    width: 86.5rem;
-}
-
-.slickImgs img {
-    margin: 2rem 15rem 5rem 15rem;
-    height: 52rem;
-    filter: brightness(80%);
-    z-index: 999;
+.slickImgs {
+  position: absolute;
+  top: -20rem;
+  z-index: 99;
 }
 
 .nada {
-    position: absolute;
-    width: 100%;
-    background: rgb(246, 197, 0);;
-    height: 10rem;
-    top: 59.7rem;
+  position: absolute;
+  width: 100%;
+  background: rgb(246, 197, 0);
+  height: 10rem;
+  top: 59.7rem;
 }
 
 .galleryContainer {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .galleryContainer li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
 
 .galleryContainer li img {
-    width: 30rem;   
-    height: 20rem;
-    cursor: pointer;
-    transition: transform .3s;
+  width: 30rem;
+  height: 20rem;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .galleryContainer li p {
-    font-size: large;
-    padding: 1rem;
+  font-size: large;
+  padding: 1rem;
 }
 
-.galleryContainer li img:hover{
-    transform: scale(1.1);
+.galleryContainer li img:hover {
+  transform: scale(1.1);
 }
