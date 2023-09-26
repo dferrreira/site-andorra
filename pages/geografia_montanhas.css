@@ -21,7 +21,9 @@ main img {
   background: white;
   text-align: justify;
   padding: 1rem;
+  border-radius: 0.5rem;
 }
+
 .content h2 {
   color: rgb(246, 197, 0);
 }
