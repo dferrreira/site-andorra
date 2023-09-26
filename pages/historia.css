@@ -15,7 +15,7 @@
 }
 
 .killxd {
-  margin: 1rem;
+  margin: 4% 1rem;
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
@@ -27,24 +27,18 @@
 }
 
 .killxd p {
-  text-align: left;
+  text-align: center;
   font-size: large;
-  margin: 1rem;
+  margin: 3rem;
 }
 
-.content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.tabela {
+  margin: 5rem 0 5rem 0;
 }
 
-.content li {
-  margin: 1rem 0 1rem 1rem;
-}
-
-.content li p strong {
-  color: rgb(246, 197, 0);
+.tabela table strong {
+  font-size: x-large;
+  color:rgb(246, 197, 0);
 }
 
 span {

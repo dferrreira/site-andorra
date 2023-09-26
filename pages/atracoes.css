@@ -93,7 +93,7 @@ option {
 .buttonContainer p {
   font-family: "Rubik", sans-serif;
   font-weight: 800;
-  background-image: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgb(228, 115, 115),
     rgb(252, 88, 88)
