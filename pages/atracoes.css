@@ -13,6 +13,7 @@
 }
 
 .galleryContainer {
+  margin: 2rem 0 0 0;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -35,10 +36,11 @@
 .galleryContainer li p {
   font-size: large;
   padding: 1rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .galleryContainer li img:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .formulario form {
