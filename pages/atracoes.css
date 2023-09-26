@@ -66,3 +66,28 @@ option {
   cursor: pointer;
   user-select: none;
 }
+
+.buttonContainer {
+  padding: 3px;
+  background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
+  border-radius: 3px;
+}
+
+.buttonContainer button {
+  height: 2.6rem;
+  border: 0;
+  cursor: pointer;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.buttonContainer p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  background-image: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
