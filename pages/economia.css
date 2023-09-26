@@ -1,10 +1,14 @@
-.text {
+.slickImgs {
+  position: relative;
   width: 100%;
-  margin-top: 38rem;
-  margin-bottom: 2rem;
+  height: auto;
+  object-fit: cover;
 }
 
 h1 {
   color: white;
   position: absolute;
+  z-index: 1000;
+  top: 19.5rem;
+  left: 38rem;
 }
