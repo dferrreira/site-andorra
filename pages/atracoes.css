@@ -1,3 +1,19 @@
+@keyframes button{
+  15% {
+    background: rgb(228, 115, 115);
+  }
+
+  30% {
+    background: rgb(252, 88, 88);
+  }
+  50% {
+    background: white;
+  }
+  80% {
+    background: transparent;
+  }
+}
+
 .content {
   height: 100%;
   width: 100%;
@@ -72,7 +88,6 @@ option {
   padding: 3px;
   background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
   border-radius: 3px;
-  transition: 1s;
 }
 
 .buttonContainer button {
