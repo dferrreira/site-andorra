@@ -56,10 +56,20 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 998;
-  top: 25rem;
+  top: 22rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#xd {
+  margin-top: 3rem;
+  width: 60%;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {

@@ -11,7 +11,29 @@
   left: 85vh;
 }
 
+#subTitle {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
 .textContainer {
-  text-align: justify;
-  margin: 1rem 0 1rem 1.5rem;
+  padding: 5rem;
+  width: 100%;
+}
+
+.textContainer ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer ul li{
+  padding: 1rem;
+  font-size: larger;
+}
+
+#xdd {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: larger;
 }
