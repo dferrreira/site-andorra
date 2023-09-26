@@ -1,8 +1,8 @@
-@keyframes button{
-  0% {
+@keyframes button {
+  from {
     background: rgb(228, 115, 115);
   }
-  100% {
+  to {
     background: transparent;
   }
 }
@@ -77,36 +77,35 @@ option {
   user-select: none;
 }
 
-.buttonContainer {
-  padding: 3px;
-  background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
-  border-radius: 3px;
-}
-
 .buttonContainer button {
   height: 2.6rem;
   border: 0;
   cursor: pointer;
   padding: 0 1rem 0 1rem;
-}
 
-.buttonContainer p {
   font-family: "Rubik", sans-serif;
   font-weight: 800;
-  background: linear-gradient(
+  background-image: linear-gradient(
     180deg,
     rgb(228, 115, 115),
     rgb(252, 88, 88)
   );
   background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
 }
 
-.buttonContainer:hover {
-  animation: button 1s ease;
-  background: transparent;
+.buttonContainer button:hover {
+  background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
+  color: #fff;
+}
+.buttonContainer {
+  padding: 3px;
+  background: radial-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
+  margin-top: 1rem;
+  border-radius: 3px;
+  animation: button;
+  transition: 2s;
+}
+.buttonContainer button {
+  animation: button;
+  transition: 1s;
 }
