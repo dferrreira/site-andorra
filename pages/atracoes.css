@@ -1,15 +1,8 @@
 @keyframes button{
-  15% {
+  0% {
     background: rgb(228, 115, 115);
   }
-
-  30% {
-    background: rgb(252, 88, 88);
-  }
-  50% {
-    background: white;
-  }
-  80% {
+  100% {
     background: transparent;
   }
 }
@@ -109,5 +102,6 @@ option {
 }
 
 .buttonContainer:hover {
+  animation: button 1s ease;
   background: transparent;
 }
