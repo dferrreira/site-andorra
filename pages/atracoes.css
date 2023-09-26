@@ -72,13 +72,14 @@ option {
   padding: 3px;
   background: linear-gradient(180deg, rgb(228, 115, 115), rgb(252, 88, 88));
   border-radius: 3px;
+  transition: 1s;
 }
 
 .buttonContainer button {
   height: 2.6rem;
   border: 0;
   cursor: pointer;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .buttonContainer p {
